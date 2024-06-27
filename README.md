@@ -25,7 +25,7 @@ Sleep uit de categorie **SpaceStationX** het blokje
 Sleep uit de categorie **SpaceStationX** het blokje
 ``||SpaceStationX.startSteeringWheelCommunication||`` en plaats deze binnen  ``||basic:on start||``  onder  ``||SpaceStationX.prepareCommunications||`` 
 
-*Deze instructie start de communicatie van het stuur (de microbit) met de navigatie computer van de escape.*
+*Deze instructie start de communicatie van het stuur (de microbit) met de navigatie computer van de escapepod.*
 
 ## Stap 4
 Sleep uit de categorie **SpaceStationX** het blok  ``||SpaceStationX.setHeading||`` en plaats deze binnen  ``||basic:on start||``  onder  ``||SpaceStationX.prepareCommunications||``  
@@ -35,21 +35,25 @@ Voer het juiste getal in voor de 'heading'.
 
 ## Stap 5
 Sleep uit de categorie **Loops** het blok  ``||Loops.every||``
-en verander de waarde in het blokje naar 50
+en verander de waarde in het blokje naar 50.  
 
+*Alle instructies die je in dit blok plaatst worden in een loop iedere x milliseconden uitgevoerd*
 ## Stap 6
 Plaats uit de categorie **SpaceStationX** het blokje
 ``||SpaceStationX.calibrateSteeringWheel||`` binnen het blok  ``||Loops.every||``
 
 ## Stap 7
-Zoek in de categorie **Input...more** naar een blokje dat een rotatie van de microbit op een bepaalde as teruggeeft en plaats er twee in de vakjes van het blokje ``||SpaceStationX.calibrateSteeringWheel||`` 
-``vraag eventueel om een hint ``
+Zoek in de categorie **Input...more** naar een blokje dat een rotatie van de microbit op een bepaalde as teruggeeft en plaats er twee in de vakjes van het blokje ``||SpaceStationX.calibrateSteeringWheel||``.  
+ ``vraag eventueel om een hint ``.  
+
+*Deze instructies verstuurt de stand (rotatie) van de microbit naar de navigatie computer*
 
 ## Test je instructies
 Klik op de knop ``Download``.  
-Je instructies worden nu op de microbit gezet.
-*Iedere keer dat je aanpassingen maakt in je instructies zul weer op de knop ``Download`` moeten klikken.*
+Je instructies worden nu op de microbit gezet.  
 
-##Koppel de escapepod computer
+*Iedere keer dat je aanpassingen maakt in je instructies zul je weer op de knop ``Download`` moeten klikken.*
+
+## Koppel de escapepod computer
 Sluit de microbit nu aan op de escapepod computer en test of je code werkt.  
 De calibratie modus zou moeten starten op het scherm.
