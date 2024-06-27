@@ -41,11 +41,11 @@ en verander de waarde in het blokje naar 50
 Plaats uit de categorie **SpaceStationX** het blokje
 ``||SpaceStationX.calibrateSteeringWheel||`` binnen het blok  ``||Loops.every||``
 
-##stap 7
+## Stap 7
 Zoek in de categorie **Input...more** naar een blokje dat een rotatie van de microbit op een bepaalde as teruggeeft en plaats er twee in de vakjes van het blokje ``||SpaceStationX.calibrateSteeringWheel||`` 
 ``vraag eventueel om een hint ``
 
-##Probeer je instructies
+## Test je instructies
 Klik op de knop ``Download``.  
 Je instructies worden nu op de microbit gezet.
 *Iedere keer dat je aanpassingen maakt in je instructies zul weer op de knop ``Download`` moeten klikken.*
@@ -53,4 +53,3 @@ Je instructies worden nu op de microbit gezet.
 ##Koppel de escapepod computer
 Sluit de microbit nu aan op de escapepod computer en test of je code werkt.  
 De calibratie modus zou moeten starten op het scherm.
-
